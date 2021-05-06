@@ -1,0 +1,81 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Users/xiaowenhuang/Documents/Unity/2020.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/xiaowenhuang/Documents/GitHub/tech7/techart7
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62579
+Successfully changed project path to: /Users/xiaowenhuang/Documents/GitHub/tech7/techart7
+/Users/xiaowenhuang/Documents/GitHub/tech7/techart7
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 122.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path /Users/xiaowenhuang/Documents/Unity/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/xiaowenhuang/Documents/GitHub/tech7/techart7/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-06 02:15:51.444 Unity[12141:4210910] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
+2021-05-06 02:15:51.444 Unity[12141:4210910] Metal devices available: 1
+2021-05-06 02:15:51.444 Unity[12141:4210910] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
+2021-05-06 02:15:51.462 Unity[12141:4210910] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
+Initialize mono
+Mono path[0] = '/Users/xiaowenhuang/Documents/Unity/2020.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/xiaowenhuang/Documents/Unity/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/xiaowenhuang/Documents/Unity/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56141
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/xiaowenhuang/Documents/Unity/2020.3.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Users/xiaowenhuang/Documents/Unity/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Users/xiaowenhuang/Documents/Unity/2020.3.4f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001054 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 123.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.421 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001619 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 84.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.723 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launching external process: /Users/xiaowenhuang/Documents/Unity/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2420 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2824.
+Total: 7.261395 ms (FindLiveObjects: 0.844033 ms CreateObjectMapping: 0.350833 ms MarkObjects: 2.946255 ms  DeleteObjects: 3.116498 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bae6031c3a27c632e83ff632957e097') in 0.374192 seconds
+  Import took 0.383051 seconds .
+
