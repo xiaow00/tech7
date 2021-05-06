@@ -26,7 +26,7 @@ public class BlendTrigger : MonoBehaviour
     {
         if(collider.gameObject.tag == "Player")
         {
-            if(yourblend >= 1f)
+            if(yourblend >= 0.8f)
             {
                 yourblend -= 0.2f * Time.deltaTime;
                     skyboxMaterial.SetFloat("_Blend", yourblend);
