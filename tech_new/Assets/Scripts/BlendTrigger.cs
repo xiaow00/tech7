@@ -17,7 +17,7 @@ public class BlendTrigger : MonoBehaviour
         {
             if(yourblend <= 1f)
             {
-                yourblend += 0.2f * Time.deltaTime;
+                yourblend += 0.4f * Time.deltaTime;
                     skyboxMaterial.SetFloat("_Blend", yourblend);
             }   
         }
@@ -28,7 +28,7 @@ public class BlendTrigger : MonoBehaviour
         {
             if(yourblend >= 0.8f)
             {
-                yourblend -= 0.2f * Time.deltaTime;
+                yourblend -= 0.4f * Time.deltaTime;
                     skyboxMaterial.SetFloat("_Blend", yourblend);
             }
         }
