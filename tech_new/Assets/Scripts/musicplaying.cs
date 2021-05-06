@@ -32,8 +32,8 @@ public class musicplaying : MonoBehaviour
         Snow.Play();
         GroundSnow.SetActive(true);
         isGroundSnowShowing = true;
-        Flowers.SetActive(true);
-        isFlowerShowing = true;
+        Flowers.SetActive(false);
+        isFlowerShowing = false;
     }
     private void OnTriggerExit(Collider other)
     {
@@ -41,8 +41,8 @@ public class musicplaying : MonoBehaviour
         Snow.Stop();
         GroundSnow.SetActive(false);
         isGroundSnowShowing = false;
-        Flowers.SetActive(false);
-        isFlowerShowing = false;
+        Flowers.SetActive(true);
+        isFlowerShowing = true;
 
     }
 

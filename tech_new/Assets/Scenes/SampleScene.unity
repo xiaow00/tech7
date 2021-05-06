@@ -10691,7 +10691,7 @@ MonoBehaviour:
   WinterSound: {fileID: 609084899}
   Snow: {fileID: 559276450}
   GroundSnow: {fileID: 1825123160}
-  Flowers: {fileID: 0}
+  Flowers: {fileID: 1291028036}
 --- !u!1001 &876478610
 PrefabInstance:
   m_ObjectHideFlags: 0
